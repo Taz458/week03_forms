@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!-- form is like a div container, a box, around a form where the user fills stuff in and presses a button to submit. -->
+    <form id="form1">
+        <label for="email">Email</label>
+        <!-- label improves accessibility and looks. -->
+        <input type="email" name="email" required> 
+        <!-- Type gives the input type, automatically email checks format for email, and name is for key-value pairs.  -->
+
+        <label for="password">Password</label>
+        <input type="password" name="password" required>
+        <!-- label gives the word next to the box, and input is the box which the user types the information in. -->
+        <!-- Required means if nothing is entered program wont run -->
+
+        <button type="submit">Submit</button>
+        <!-- type = sumbit, html recognizes it as a sumbit button, submits form when clicked. -->
+    </form>
+
+    <form id="form2">
+        <label for="name">Name</label>
+        <input type="text" name="name" required>
+        <label for="city">City</label>
+        <input type="text" name="city" required>
+        <label for="hobby">Hobby</label>
+        <input type="text" name="hobby" required>
+
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
